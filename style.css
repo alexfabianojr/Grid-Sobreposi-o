@@ -1,0 +1,69 @@
+html, body {
+    padding: 2%;
+    background: slategrey;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    grid-template-areas:    "um dois tres"
+                            "quatro cinco seis"
+                            "sete oito nove"
+                            "dez dez dez";
+}
+
+.box {
+    padding: 2%;
+    background: cornsilk;
+    border: 5px solid black;
+}
+
+.box-1 {
+    grid-area: um;
+    z-index: 1 ;
+}
+
+.box-2 {
+    grid-area: dois;
+    z-index: 2;
+}
+
+.box-3 {
+    grid-area: tres;
+    z-index: 3;
+}
+
+.box-4 {
+    grid-area: quatro;
+    z-index: 4;
+}
+
+.box-5 {
+    grid-area: cinco;
+    z-index: 5;
+}
+.box-6 {
+    grid-area: seis;
+    z-index: 6;
+}
+
+.box-7 {
+    grid-area: sete;
+    z-index: 7;
+}
+
+.box-8 {
+    grid-area: oito;
+    z-index: 8;
+}
+
+.box-9 {
+    grid-area: nove;
+    z-index: 9;
+}
+
+.box-10 {
+    grid-area: dez;
+    z-index: 10;
+}
